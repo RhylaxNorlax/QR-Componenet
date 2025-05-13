@@ -1,0 +1,53 @@
+/* Basic CSS Boilerplate */
+
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body defaults */
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background: hsl(212, 45%, 89%);
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  display: block;
+  border-radius: 10px;
+}
+
+.container{
+    max-width: 320px;
+    max-height: 499px;
+    padding: 16px 16px 40px 16px;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+}
+#qr-body{
+    margin: 24px 0 40px 0;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    padding: 0 16px 0 16px;
+}
+h1{
+    font-size: 22px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+p{
+    padding-top:16px;
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(216, 15%, 48%);
+}
